@@ -10,7 +10,7 @@ const Button2 = () => {
     const handleClick2 = () =>{
 
         const newWindow = window.open("https://dwdp-azapp-chatbot-001.azurewebsites.net/",'dongwon', `location=no, width=${screenWidth}, height=${screenHeight}`)
-  
+        newWindow.open()
     }
     const imageStyle = {
         width: '400px',

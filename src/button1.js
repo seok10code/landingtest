@@ -12,7 +12,7 @@ const Button1 = () => {
     const screenHeight = window.screen.height;
     const handleClick1 = () =>{
         const newWindow = window.open("https://adb-5558582637407295.15.azuredatabricks.net/onboarding?o=5558582637407295#",'dbrick', `width=${screenWidth}, height=${screenHeight}`)
-
+        newWindow.open()
     };
     return(
 
