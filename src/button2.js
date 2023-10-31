@@ -1,5 +1,5 @@
 import React from 'react';
-// import ddt from '../assets/cg-img1@2x.png';
+import chat from './assets/cg-img1@2x.png'
 
 
 
@@ -23,7 +23,7 @@ const Button2 = () => {
 
         
         <button className='App-button' onClick={handleClick2}>
-            <img src={require('./assets/db-img1@2x.png')} className="App-logo" alt='logo' style={imageStyle} onClick={handleClick2}/>
+             <img src={chat} className="App-logo" alt='logo' style={imageStyle} onClick={handleClick2}/>
         </button>
 
     );
