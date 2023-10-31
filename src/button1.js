@@ -1,5 +1,5 @@
 import React from 'react';
-// import bricks from '/home/seok10code/anaconda3/envs/dongwon_start/dongwon-starting-web/src/assets/db-img1@2x.png';
+import bricks from './assets/db-img1@2x.png';
 
 
 
@@ -17,7 +17,7 @@ const Button1 = () => {
     return(
 
         <button className='App-button' onClick={handleClick1}>
-            <img src={require('./assets/db-img1@2x.png')} className="App-logo" alt="bricks" onClick={handleClick1}/>
+            <img src={bricks} className="App-logo" alt="bricks" style={imageStyle} onClick={handleClick1}/>
         </button>
     );
 };
